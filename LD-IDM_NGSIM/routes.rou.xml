@@ -1,0 +1,441 @@
+<routes>
+	<vType id="vtypeauto" accel="3.5" decel="4.5" sigma="0.5" length="4"
+		   minGap="0" maxSpeed="40" color="51,153,255" probability="1"
+		   carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5"
+		   lanesCount="3" ccAccel="1.5" ploegKp="0.2" ploegKd="0.7" vClass="taxi"
+		   ploegH="0.5" speedFactor="2" laneChangeModel="LC2013" lcOvertakeRight="1"/>
+	<vType id="passenger" accel="1.5" decel="2.5" sigma="0.6" length="4"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+<!--	<vType id="car294" accel="1.52" decel="2.14" sigma="8" length="4.97"-->
+<!--		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.36"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+<!--	<vType id="car305" accel="1.30" decel="1.94" sigma="8" length="4.82"-->
+<!--		   minGap="4.44" maxSpeed="23.54" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.06"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+<!--	<vType id="car314" accel="1.30" decel="1.94" sigma="8" length="4.24"-->
+<!--		   minGap="4.44" maxSpeed="23.54" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.06"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+<!--	<vType id="car316" accel="1.30" decel="1.94" sigma="5" length="4.69"-->
+<!--		   minGap="4.44" maxSpeed="23.54" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.06"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+<!--	<vType id="car321" accel="1.30" decel="1.94" sigma="5" length="3.63"-->
+<!--		   minGap="4.44" maxSpeed="23.54" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.06"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+	<vType id="car323" accel="1.30" decel="1.94" sigma="5" length="5.12"
+		   minGap="4.44" maxSpeed="23.54" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.06"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car328" accel="1.30" decel="1.94" sigma="5" length="4.08"
+		   minGap="4.44" maxSpeed="23.54" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.06"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car294" accel="1.52" decel="2.14" sigma="5" length="4.97"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car305" accel="1.52" decel="2.14" sigma="5" length="4.82"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car314" accel="1.52" decel="2.14" sigma="5" length="4.24"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+<!--	<vType id="car323" accel="1.52" decel="2.14" sigma="5" length="5.12"-->
+<!--		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.36"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+<!--	<vType id="car328" accel="1.52" decel="2.14" sigma="5" length="4.08"-->
+<!--		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.36"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+	<vType id="car337" accel="1.52" decel="2.14" sigma="5" length="4.39"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+<!--	<vType id="car337" accel="1.30" decel="1.94" sigma="5" length="4.39"-->
+<!--		   minGap="4.44" maxSpeed="23.54" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.06"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+
+	<vType id="car316" accel="1.52" decel="2.14" sigma="5" length="4.69"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car321" accel="1.52" decel="2.14" sigma="5" length="3.63"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car316_2" accel="0.776" decel="4.452" sigma="5" length="4.69"
+		   minGap="2.641" maxSpeed="29.675" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.265"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car321_2" accel="0.776" decel="4.452" sigma="5" length="3.63"
+		   minGap="2.641" maxSpeed="29.675" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.265"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car316_3" accel="2.67" decel="4.68" sigma="5" length="4.69"
+		   minGap="6.15" maxSpeed="21.74" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="2.63"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car321_3" accel="2.67" decel="4.68" sigma="5" length="3.63"
+		   minGap="6.15" maxSpeed="21.74" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="2.63"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+
+	<vType id="truck466" accel="1.28" decel="2.36" sigma="5" length="19.57"
+		   minGap="6.28" maxSpeed="25.97" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="1.23"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car478" accel="1.28" decel="2.36" sigma="5" length="4.51"
+		   minGap="6.28" maxSpeed="25.97" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.23"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck466_2" accel="0.776" decel="4.452" sigma="5" length="19.57"
+		   minGap="2.641" maxSpeed="29.675" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="1.265"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car478_2" accel="0.776" decel="4.452" sigma="5" length="4.51"
+		   minGap="2.641" maxSpeed="29.675" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.265"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck466_3" accel="2.67" decel="4.68" sigma="5" length="19.57"
+		   minGap="6.15" maxSpeed="21.74" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="2.63"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car478_3" accel="2.67" decel="4.68" sigma="5" length="4.51"
+		   minGap="6.15" maxSpeed="21.74" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="2.63"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+
+	<vType id="car751" accel="1.08" decel="2.17" sigma="5" length="4.24"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck755" accel="1.08" decel="2.17" sigma="5" length="7.41"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car751_2" accel="0.776" decel="4.452" sigma="5" length="4.24"
+		   minGap="2.641" maxSpeed="29.675" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.265"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck755_2" accel="0.776" decel="4.452" sigma="5" length="7.41"
+		   minGap="2.641" maxSpeed="29.675" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="1.265"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car751_3" accel="2.67" decel="4.68" sigma="5" length="4.24"
+		   minGap="6.15" maxSpeed="21.74" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="2.63"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck755_3" accel="2.67" decel="4.68" sigma="5" length="7.41"
+		   minGap="6.15" maxSpeed="21.74" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="2.63"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+
+	<vType id="car459" accel="1.08" decel="2.17" sigma="5" length="4.66"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck493" accel="1.08" decel="2.17" sigma="5" length="6.49"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car459_2" accel="0.776" decel="4.452" sigma="5" length="4.66"
+		   minGap="2.641" maxSpeed="29.675" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.265"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck493_2" accel="0.776" decel="4.452" sigma="5" length="6.49"
+		   minGap="2.641" maxSpeed="29.675" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="1.265"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car459_3" accel="2.67" decel="4.68" sigma="5" length="4.66"
+		   minGap="6.15" maxSpeed="21.74" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="2.63"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck493_3" accel="2.67" decel="4.68" sigma="5" length="6.49"
+		   minGap="6.15" maxSpeed="21.74" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="2.63"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+
+
+
+	<vType id="car338_2" accel="0.776" decel="4.452" sigma="5" length="4.36"
+		   minGap="2.641" maxSpeed="29.675" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.265"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car338" accel="1.52" decel="2.14" sigma="5" length="4.36"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+
+	<vType id="car406" accel="1.52" decel="2.14" sigma="5" length="5.58"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car427" accel="1.52" decel="2.14" sigma="5" length="4.54"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+<!--	<vType id="car478" accel="1.52" decel="2.14" sigma="5" length="4.51"-->
+<!--		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.36"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+	<vType id="car489" accel="1.52" decel="2.14" sigma="5" length="4.51"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car492" accel="1.52" decel="2.14" sigma="5" length="2.87"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car637" accel="1.52" decel="2.14" sigma="5" length="4.66"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car645" accel="1.52" decel="2.14" sigma="5" length="4.82"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car651" accel="1.52" decel="2.14" sigma="5" length="5.12"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car767" accel="1.52" decel="2.14" sigma="5" length="4.82"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car775" accel="1.52" decel="2.14" sigma="5" length="4.24"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car785" accel="1.52" decel="2.14" sigma="5" length="4.82"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car1185" accel="1.52" decel="2.14" sigma="5" length="5.12"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car1193" accel="1.52" decel="2.14" sigma="5" length="4.39"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+<!--	<vType id="car316" accel="1.30" decel="1.94" sigma="10" length="4.69"-->
+<!--		   minGap="4.44" maxSpeed="23.54" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.06"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+<!--	<vType id="car321" accel="1.30" decel="1.94" sigma="10" length="3.63"-->
+<!--		   minGap="4.44" maxSpeed="23.54" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.06"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+<!--	<vType id="car338" accel="1.30" decel="1.94" sigma="5" length="4.36"-->
+<!--		   minGap="4.44" maxSpeed="23.54" color="150,194,78" vClass="passenger"-->
+<!--		   guiShape="passenger" speedFactor="1" tau="1.06"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+
+	<vType id="car838" accel="1.52" decel="2.14" sigma="5" length="5.12"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck861" accel="1.08" decel="2.17" sigma="5" length="17.89"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car943" accel="1.52" decel="2.14" sigma="5" length="4.66"
+		   minGap="5.23" maxSpeed="24.26" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.36"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck953" accel="1.08" decel="2.17" sigma="5" length="18.68"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+
+
+	<vType id="car1488" accel="1.08" decel="2.17" sigma="5" length="5.12"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck1499" accel="1.08" decel="2.17" sigma="5" length="9.54"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car445" accel="1.08" decel="2.17" sigma="5" length="4.82"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+<!--	<vType id="truck466" accel="1.08" decel="2.17" sigma="5" length="19.57"-->
+<!--		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="truck"-->
+<!--		   guiShape="truck" speedFactor="1" tau="2.32"-->
+<!--		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>-->
+	<vType id="car628" accel="1.08" decel="2.17" sigma="5" length="4.05"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="truck631" accel="1.08" decel="2.17" sigma="5" length="7.56"
+		   minGap="8.5" maxSpeed="22.37" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="2.32"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+
+
+	<vType id="truck768" accel="1.28" decel="2.36" sigma="5" length="6.8"
+		   minGap="6.28" maxSpeed="25.97" color="150,194,78" vClass="truck"
+		   guiShape="truck" speedFactor="1" tau="1.23"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+	<vType id="car776" accel="1.28" decel="2.36" sigma="5" length="4.97"
+		   minGap="6.28" maxSpeed="25.97" color="150,194,78" vClass="passenger"
+		   guiShape="passenger" speedFactor="1" tau="1.23"
+		   carFollowModel="IDM" laneChangeModel="LC2013" lcOvertakeRight="1" lcKeepRight="0"/>
+
+
+<!--	<route id="highway_route" edges="E0 E1 E3 E2"/>-->
+	<route id="highway_route" edges="E0 E1"/>
+<!--	<route id="accident_route" edges="E2"/>-->
+<!--	<vehicle id="838" depart="0" type="car838" route="highway_route" departLane="3" departSpeed="8.67"-->
+<!--			 x="26.02" y="12.99" departPos="26.02"/>-->
+<!--	<vehicle id="861" depart="5.9" type="truck861" route="highway_route" departLane="3" departSpeed="8.08"-->
+<!--			 x="50.98" y="12.61" departPos="50.98"/>-->
+<!--	<vehicle id="943" depart="0" type="car943" route="highway_route" departLane="3" departSpeed="3.22"-->
+<!--			 x="24.77" y="12.76" departPos="24.77"/>-->
+<!--	<vehicle id="953" depart="5" type="truck953" route="highway_route" departLane="3" departSpeed="6.77"-->
+<!--			 x="24.77" y="12.86" departPos="24.77"/>-->
+
+<!--	<vehicle id="1488" depart="0" type="car1488" route="highway_route" departLane="4" departSpeed="4.5"-->
+<!--			 x="26.17" y="16.57" departPos="26.17"/>-->
+<!--	<vehicle id="1499" depart="3.3" type="truck1499" route="highway_route" departLane="4" departSpeed="6.53"-->
+<!--			 x="34.71" y="16.35" departPos="34.71"/>-->
+<!--	<vehicle id="445" depart="0" type="car445" route="highway_route" departLane="2" departSpeed="12.24"-->
+<!--			 x="25.26" y="9.79" departPos="25.26"/>-->
+<!--	<vehicle id="466" depart="5.1" type="truck466" route="highway_route" departLane="2" departSpeed="10.25"-->
+<!--			 x="33.49" y="8.8" departPos="33.49"/>-->
+<!--	<vehicle id="628" depart="0" type="car628" route="highway_route" departLane="2" departSpeed="10.57"-->
+<!--			 x="23.1" y="9.79" departPos="23.1"/>-->
+<!--	<vehicle id="631" depart="3.9" type="truck631" route="highway_route" departLane="2" departSpeed="8.65"-->
+<!--			 x="24.68" y="9.27" departPos="24.68"/>-->
+
+
+<!--	<vehicle id="768" depart="0" type="truck768" route="highway_route" departLane="3" departSpeed="11.81"-->
+<!--			 x="29.28" y="12.86" departPos="29.28"/>-->
+<!--	<vehicle id="776" depart="2.5" type="car776" route="highway_route" departLane="3" departSpeed="9.97"-->
+<!--			 x="24.77" y="12.91" departPos="24.77"/>-->
+
+<!--	<vehicle id="294" depart="0" type="car294" route="highway_route" departLane="1" departSpeed="8.73"-->
+<!--			 x="25.41" y="5.52" departPos="25.41"/>-->
+<!--	<vehicle id="305" depart="2.8" type="car305" route="highway_route" departLane="1" departSpeed="8.72"-->
+<!--			 x="24.49" y="5.52" departPos="24.49"/>-->
+<!--	<vehicle id="305" depart="0" type="car305" route="highway_route" departLane="1" departSpeed="8.72"-->
+<!--			 x="24.49" y="5.52" departPos="24.49"/>-->
+<!--	<vehicle id="314" depart="1.3" type="car314" route="highway_route" departLane="1" departSpeed="8.86"-->
+<!--			 x="23.6" y="5.14" departPos="23.6"/>-->
+<!--	<vehicle id="323" depart="0" type="car323" route="highway_route" departLane="3" departSpeed="10.66"-->
+<!--			 x="26.02" y="13.22" departPos="26.02"/>-->
+<!--	<vehicle id="328" depart="2.4" type="car328" route="highway_route" departLane="3" departSpeed="12.36"-->
+<!--			 x="23.12" y="13.29" departPos="23.12"/>-->
+<!--	<vehicle id="328" depart="0" type="car328" route="highway_route" departLane="3" departSpeed="12.36"-->
+<!--			 x="23.12" y="13.29" departPos="23.12"/>-->
+<!--	<vehicle id="337" depart="2.1" type="car337" route="highway_route" departLane="3" departSpeed="10.65"-->
+<!--			 x="24.34" y="13.07" departPos="24.34"/>-->
+
+<!--	<vehicle id="316" depart="0" type="car316" route="highway_route" departLane="4" departSpeed="10.08"-->
+<!--			 x="24.33" y="17.03" departPos="24.33"/>-->
+<!--	<vehicle id="321" depart="1.9" type="car321" route="highway_route" departLane="4" departSpeed="12.41"-->
+<!--			 x="19.52" y="16.66" departPos="19.52"/>-->
+<!--	<vehicle id="316" depart="0" type="car316_2" route="highway_route" departLane="4" departSpeed="10.08"-->
+<!--			 x="24.33" y="17.03" departPos="24.33"/>-->
+<!--	<vehicle id="321" depart="1.9" type="car321_2" route="highway_route" departLane="4" departSpeed="12.41"-->
+<!--			 x="19.52" y="16.66" departPos="19.52"/>-->
+<!--	<vehicle id="316" depart="0" type="car316_3" route="highway_route" departLane="4" departSpeed="10.08"-->
+<!--			 x="24.33" y="17.03" departPos="24.33"/>-->
+<!--	<vehicle id="321" depart="1.9" type="car321_3" route="highway_route" departLane="4" departSpeed="12.41"-->
+<!--			 x="19.52" y="16.66" departPos="19.52"/>-->
+
+<!--	<vehicle id="466" depart="0" type="truck466" route="highway_route" departLane="2" departSpeed="10.25"-->
+<!--			 x="33.49" y="8.8" departPos="33.49"/>-->
+<!--	<vehicle id="478" depart="4.4" type="car478" route="highway_route" departLane="2" departSpeed="11.68"-->
+<!--			 x="23.46" y="9.27" departPos="23.46"/>-->
+<!--	<vehicle id="466" depart="0" type="truck466_2" route="highway_route" departLane="2" departSpeed="10.25"-->
+<!--			 x="33.49" y="8.8" departPos="33.49"/>-->
+<!--	<vehicle id="478" depart="4.4" type="car478_2" route="highway_route" departLane="2" departSpeed="11.68"-->
+<!--			 x="23.46" y="9.27" departPos="23.46"/>-->
+<!--	<vehicle id="466" depart="0" type="truck466_3" route="highway_route" departLane="2" departSpeed="10.25"-->
+<!--			 x="33.49" y="8.8" departPos="33.49"/>-->
+<!--	<vehicle id="478" depart="4.4" type="car478_3" route="highway_route" departLane="2" departSpeed="11.68"-->
+<!--			 x="23.46" y="9.27" departPos="23.46"/>-->
+
+<!--	<vehicle id="751" depart="0" type="car751" route="highway_route" departLane="2" departSpeed="9.85"-->
+<!--			 x="15.7" y="9.63" departPos="15.7"/>-->
+<!--	<vehicle id="755" depart="4.8" type="truck755" route="highway_route" departLane="2" departSpeed="8.53"-->
+<!--			 x="29.83" y="9.34" departPos="29.83"/>-->
+<!--	<vehicle id="751" depart="0" type="car751_2" route="highway_route" departLane="2" departSpeed="9.85"-->
+<!--			 x="15.7" y="9.63" departPos="15.7"/>-->
+<!--	<vehicle id="755" depart="4.8" type="truck755_2" route="highway_route" departLane="2" departSpeed="8.53"-->
+<!--			 x="29.83" y="9.34" departPos="29.83"/>-->
+<!--	<vehicle id="751" depart="0" type="car751_3" route="highway_route" departLane="2" departSpeed="9.85"-->
+<!--			 x="15.7" y="9.63" departPos="15.7"/>-->
+<!--	<vehicle id="755" depart="4.8" type="truck755_3" route="highway_route" departLane="2" departSpeed="8.53"-->
+<!--			 x="29.83" y="9.34" departPos="29.83"/>-->
+
+	<vehicle id="459" depart="0" type="car459" route="highway_route" departLane="4" departSpeed="15.1"
+			 x="22.22" y="16.96" departPos="22.22"/>
+	<vehicle id="493" depart="6.8" type="truck493" route="highway_route" departLane="4" departSpeed="11.21"
+			 x="28.31" y="15.74" departPos="28.31"/>
+<!--	<vehicle id="459" depart="0" type="car459_2" route="highway_route" departLane="4" departSpeed="15.1"-->
+<!--			 x="22.22" y="16.96" departPos="22.22"/>-->
+<!--	<vehicle id="493" depart="6.8" type="truck493_2" route="highway_route" departLane="4" departSpeed="11.21"-->
+<!--			 x="28.31" y="15.74" departPos="28.31"/>-->
+<!--	<vehicle id="459" depart="0" type="car459_3" route="highway_route" departLane="4" departSpeed="15.1"-->
+<!--			 x="22.22" y="16.96" departPos="22.22"/>-->
+<!--	<vehicle id="493" depart="6.8" type="truck493_3" route="highway_route" departLane="4" departSpeed="11.21"-->
+<!--			 x="28.31" y="15.74" departPos="28.31"/>-->
+
+<!--	<vehicle id="321" depart="0" type="car321" route="highway_route" departLane="4" departSpeed="12.41"-->
+<!--			 x="19.52" y="16.66" departPos="19.52"/>-->
+<!--	<vehicle id="338" depart="2.8" type="car338" route="highway_route" departLane="4" departSpeed="10.89"-->
+<!--			 x="24.31" y="16.42" departPos="24.31"/>-->
+<!--	<vehicle id="321" depart="0" type="car321_2" route="highway_route" departLane="4" departSpeed="12.41"-->
+<!--			 x="19.52" y="16.66" departPos="19.52"/>-->
+<!--	<vehicle id="338" depart="2.8" type="car338_2" route="highway_route" departLane="4" departSpeed="10.89"-->
+<!--			 x="24.31" y="16.42" departPos="24.31"/>-->
+
+<!--	<vehicle id="406" depart="0" type="car406" route="highway_route" departLane="4" departSpeed="14.38"-->
+<!--			 x="26.94" y="16.12" departPos="26.94"/>-->
+<!--	<vehicle id="427" depart="1.8" type="car427" route="highway_route" departLane="4" departSpeed="11.77"-->
+<!--			 x="24.64" y="16.73" departPos="24.64"/>-->
+<!--	<vehicle id="478" depart="0" type="car478" route="highway_route" departLane="2" departSpeed="11.68"-->
+<!--			 x="23.46" y="9.27" departPos="23.46"/>-->
+<!--	<vehicle id="489" depart="2.0" type="car489" route="highway_route" departLane="2" departSpeed="10.53"-->
+<!--			 x="17.49" y="9.1" departPos="17.49"/>-->
+<!--	<vehicle id="489" depart="0" type="car489" route="highway_route" departLane="2" departSpeed="10.53"-->
+<!--			 x="17.49" y="9.1" departPos="17.49"/>-->
+<!--	<vehicle id="492" depart="1.2" type="car492" route="highway_route" departLane="2" departSpeed="11.51"-->
+<!--			 x="5.64" y="9.58" departPos="5.64"/>-->
+<!--	<vehicle id="637" depart="0" type="car637" route="highway_route" departLane="2" departSpeed="8.46"-->
+<!--			 x="24.62" y="9.56" departPos="24.62"/>-->
+<!--	<vehicle id="645" depart="2.7" type="car645" route="highway_route" departLane="2" departSpeed="9.28"-->
+<!--			 x="25.26" y="8.8" departPos="25.26"/>-->
+<!--	<vehicle id="645" depart="0" type="car645" route="highway_route" departLane="2" departSpeed="9.28"-->
+<!--			 x="25.26" y="8.8" departPos="25.26"/>-->
+<!--	<vehicle id="651" depart="2.4" type="car651" route="highway_route" departLane="2" departSpeed="9.15"-->
+<!--			 x="25.39" y="9.18" departPos="25.39"/>-->
+<!--	<vehicle id="767" depart="0" type="car767" route="highway_route" departLane="2" departSpeed="9.04"-->
+<!--			 x="24.63" y="9.49" departPos="24.63"/>-->
+<!--	<vehicle id="775" depart="2.4" type="car775" route="highway_route" departLane="2" departSpeed="8.62"-->
+<!--			 x="22.43" y="9.65" departPos="22.43"/>-->
+<!--	<vehicle id="775" depart="0" type="car775" route="highway_route" departLane="2" departSpeed="8.62"-->
+<!--			 x="22.43" y="9.65" departPos="22.43"/>-->
+<!--	<vehicle id="785" depart="2.6" type="car785" route="highway_route" departLane="2" departSpeed="10.01"-->
+<!--			 x="25.26" y="9.87" departPos="25.26"/>-->
+<!--	<vehicle id="1185" depart="0" type="car1185" route="highway_route" departLane="2" departSpeed="9.18"-->
+<!--			 x="25.56" y="10.17" departPos="25.56"/>-->
+<!--	<vehicle id="1193" depart="1" type="car1193" route="highway_route" departLane="2" departSpeed="10.07"-->
+<!--			 x="23.74" y="9.41" departPos="23.74"/>-->
+
+
+</routes>
